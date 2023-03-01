@@ -1,0 +1,179 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+    list-style: none;
+}
+.header{
+display:flex;
+justify-content:space-between;
+
+}
+.header__titulo{
+    padding-top:20px;
+}
+.menu-formulario{    
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contenedor-menu__menu-imagenes{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.productos{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    text-align:center;
+    gap:0.4%;
+
+}
+.productos__prenda{
+    width: 300px;
+    padding-top:10px;
+}
+.productos__prenda__item{
+    width: 100%; 
+}
+p{
+    font-size:12px;
+    font-weight:bold;
+}
+.titles-below{
+    display:flex;
+    flex-direction: column;
+    text-align:center;
+    padding-top:200px;
+    padding-bottom:20px;
+}
+.titles-below--titulo1{
+    font-weight: bold;
+}
+.titles-below--titulo2{
+    font-weight:lighter;
+}
+.enter-email{
+    display:flex;
+    text-align: center;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+.enter-email__text{
+    width: 500px;
+    align-self: center;
+}
+.contacto{
+    display:flex;
+    text-align:center;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+.contacto__filas{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    gap:1%;
+    padding-top: 10px;
+}
+.contacto__paragraph--contact{
+    font-size:medium;
+}
+.contacto__paragraph--horario{
+    align-self: center;
+    padding-top:10px;
+}
+.footer{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap:5%;
+}  
+.footer_list_item--titulo{
+    font-weight: bold;
+} 
+.menu-aside{
+
+    position:relative;
+    display:flex;
+    flex-direction:column;
+}
+.menu-aside__botonera{
+    position:fixed;
+    display:flex;
+    flex-direction: row;
+}
+.formulario__perfil{
+    width:20px;
+}
+.formulario__cesta{
+    width:20px;
+}
+.imagen-perfil{
+    width: 100%;
+}
+.imagen-cesta{
+    width: 100%;
+}
+.formulario{
+    display:flex;
+    flex-direction: space-between;
+}
+.formulario__buscar{
+    border:none;
+    border-bottom: 4px solid rgba(57, 52, 52, 0.31);
+}
+.contenedor-menu__menu-imagenes{
+    font-weight: bold;
+    color: rgb(198, 188, 188);
+}
+.textos-inicio{
+    
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+.titulo{
+    padding-bottom:30px;
+}
+.parrafo{
+    color:grey;
+}
+.negrita{
+    color:black;
+}
+.fijar-menu{
+    display:flex;
+    position:relative;
+    display:flex;
+    top:20px;
+    left:30px;
+}
+.menu-aside__filas{
+    position:absolute;
+    position:fixed;
+    top:40px;
+    font-weight: bold;
+}
+.footer__list--pago{
+    width:20px;
+    display:flex;
+    justify-content: space-between;
+}
+.imagen-footer{
+    width: 100%;
+}
+.enter-email__text{
+    border:none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+.menu-aside__botonera__hombre__boton{
+    color: rgb(73, 70, 70); 
+    padding-right:10px;
+}
+a:visited{
+    color:grey;
+    text-decoration: none;
+}
